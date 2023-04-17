@@ -1,6 +1,6 @@
 {
-  "name": "babel-plugin-remove-import-js-extension",
-  "version": "0.0.3",
+  "name": "@origen-studio/babel-plugin-remove-import-js-extension",
+  "version": "0.0.4",
   "description": "Remove .js and .jsx extensions from `import` statements",
   "main": "lib/index.js",
   "scripts": {
@@ -20,6 +20,7 @@
   "author": "Dorian CAMILLERI <dorian@dcamilleri.com>",
   "license": "MIT",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.14.0",
     "babel-jest": "^15.0.0",
     "babel-preset-es2015": "^6.14.0",
